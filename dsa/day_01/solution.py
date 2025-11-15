@@ -2,7 +2,7 @@
 Day 1 – Permutation Pair Sum
 Platform: GFG
 Difficulty: Easy 
-Date: YYYY-MM-DD
+Date: 2025-11-14
 
 Q: Given two arrays a[] and b[] of equal size and an integer k, Determine whether there exists any permutation of the arrays such that for every index i, the condition a[i] + b[i] ≥ k holds. Return true if such a permutation exists, otherwise return false.
 """

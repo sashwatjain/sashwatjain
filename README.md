@@ -122,6 +122,6 @@ To become a **top‑tier AI engineer**, build **creative brands**, and inspire o
 
 ## 🤝 Thanks for visiting!
 
-If you like my work, feel free to ⭐ my repositories or reach out anytime..
+If you like my work, feel free to ⭐ my repositories or reach out anytime.
 
 ---
