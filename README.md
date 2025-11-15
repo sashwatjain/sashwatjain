@@ -102,9 +102,9 @@ I upload **one problem every day** to improve consistency and problem‑solving.
 * 📝 Explanation inside each folder
 * 🔄 Mix of easy → medium → hard
 
-🔥 **Current Streak:** updating...
-📅 **Last Problem:** updating...
-📁 **Total Problems Solved:** updating...
+🔥 **Current Streak:** 2 days
+📅 **Last Problem:** day_02
+📁 **Total Problems Solved:** 2
 
 I believe consistency beats talent.
 
