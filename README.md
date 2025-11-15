@@ -1,7 +1,7 @@
 # Hi, I'm Sashwat Jain 👋
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2llbWJ6d2dvNjF2d3FodWpyZWJlZXlxdjVsbXd3MDhhczNtcnFubiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZVik7pBtu9dNS/giphy.gif" width="250" />
+  <img src="assets\My Workspace GIF.gif" width="350"/>
 </p>
 
 ---
@@ -84,8 +84,10 @@ I'm a software engineer from India passionate about building **AI-driven applica
 
 <p align="left">
 <a href="https://www.linkedin.com/in/sashwatjain/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://www.instagram.com/sashwat.jain/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="mailto:sashwatjain31@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.instagram.com/sashwatjain/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+<a href="mailto:sashwatjain1@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.youtube.com/@sashwatjain"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+
 </p>
 
 ---
