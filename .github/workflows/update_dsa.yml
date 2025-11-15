@@ -1,0 +1,31 @@
+name: Update DSA Streak
+
+on:
+  push:
+    paths:
+      - "dsa/**"
+      - ".github/workflows/update_dsa.yml"
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Run DSA Streak Script
+        run: python update_dsa.py
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Auto-update DSA streak" || echo "No changes"
+          git push
