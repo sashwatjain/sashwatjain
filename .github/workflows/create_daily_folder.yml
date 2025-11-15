@@ -1,0 +1,71 @@
+name: Create Daily DSA Folder
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # Midnight IST (18:00 UTC)
+  workflow_dispatch:
+
+jobs:
+  create-folder:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Create new day folder with template
+        run: |
+          # Count folders
+          count=$(ls dsa | grep "day_" | wc -l)
+          next=$((count + 1))
+          folder=$(printf "day_%02d" $next)
+
+          # Create folder
+          mkdir -p "dsa/$folder"
+
+          # Today's date
+          today=$(date +'%Y-%m-%d')
+
+          # Write solution.py template
+          cat << 'EOF' > dsa/$folder/solution.py
+"""
+Day X – <Problem Name>
+Platform: LeetCode / GFG
+Difficulty: Easy / Medium / Hard
+Date: YYYY-MM-DD
+"""
+
+class Solution:
+    def solve(self, ...):
+        # TODO: add signature based on problem
+        pass
+
+
+"""
+Approach:
+- Explain your logic shortly.
+
+Time Complexity:  O(...)
+Space Complexity: O(...)
+"""
+EOF
+
+          # Replace placeholder Day and Date
+          sed -i "s/Day X/Day $next/" dsa/$folder/solution.py
+          sed -i "s/YYYY-MM-DD/$today/" dsa/$folder/solution.py
+
+          # Create notes.md
+          echo "# Notes for Day $next" > dsa/$folder/notes.md
+
+          # Create problem.md
+          echo "# Problem of Day $next" > dsa/$folder/problem.md
+
+          echo "Created folder dsa/$folder with template files."
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-create new DSA folder dsa/$folder" || echo "No commits"
+          git push
