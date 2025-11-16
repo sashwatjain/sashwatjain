@@ -12,10 +12,10 @@
 
 I'm a software engineer from India passionate about building **AI-driven applications**, solving **DSA problems consistently**, and creating **cinematic YouTube content**. I love combining tech + storytelling — whether it's building apps, crafting visual stories, or helping brands through content.
 
-* 🎥 Filmmaker & Content Creator (Reels, YouTube, Commercial Shoots)
 * 🤖 AI & Python Developer | OCR, Computer Vision, ML
 * 🌱 Currently improving: **AI/ML, Cross‑platform Dev, Cloud, System Design**
 * ⚡ Working on personal brand + fitness + creativity
+* 🎥 Filmmaker & Content Creator (Reels, YouTube, Commercial Shoots)
 
 ---
 
