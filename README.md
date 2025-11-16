@@ -14,7 +14,6 @@ I'm a software engineer from India passionate about building **AI-driven applica
 
 * 🎥 Filmmaker & Content Creator (Reels, YouTube, Commercial Shoots)
 * 🤖 AI & Python Developer | OCR, Computer Vision, ML
-* 📱 Android Developer (CameraX, media apps)
 * 🌱 Currently improving: **AI/ML, Cross‑platform Dev, Cloud, System Design**
 * ⚡ Working on personal brand + fitness + creativity
 
@@ -24,7 +23,6 @@ I'm a software engineer from India passionate about building **AI-driven applica
 
 **Languages:** Python, Kotlin, Java, C++, JavaScript
 **AI/ML:** OpenCV, OCR (Tesseract), Vision APIs, LLM-based automation
-**Android Dev:** CameraX, MediaRecorder, Services, Clean Architecture
 **Tools:** Git, Docker, Firebase, Linux, VS Code, PyTorch (beginner)
 **Cloud:** Google Cloud, Firebase Hosting
 
@@ -44,7 +42,6 @@ I'm a software engineer from India passionate about building **AI-driven applica
 ### 📌 AI & Software
 
 * **OCR Automation Toolkit** – Image → Text pipeline
-* **Android Fitness App** – CameraX + custom video recording service
 * **AI Parallax Creator** – Python tool to create 2.5D motion videos
 
 ### 🎬 Filmmaking / Media
