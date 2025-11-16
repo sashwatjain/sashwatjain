@@ -30,7 +30,7 @@ I'm a software engineer from India passionate about building **AI-driven applica
 
 ## 🎯 What I Am Building Now
 
-* 🔥 **Daily DSA solutions** uploaded here ( <img src="https://media.giphy.com/media/l3vRfNA1p0rvhMSvS/giphy.gif" width="30" />)
+* 🔥 **Daily DSA solutions** uploaded [here](https://github.com/sashwatjain/sashwatjain/tree/main/dsa)
 * 📚 Strong roadmap toward AI/ML + high‑paying software roles
 * 🎬 High‑quality short cinematic videos for brands and YouTube
 * 🧩 Python tools for automation (image → video, parallax, 2.5D, etc.)
