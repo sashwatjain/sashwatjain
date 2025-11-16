@@ -8,7 +8,7 @@
 
 ## 🚀 About Me
 
-**AI & Software Engineer | Filmmaker | Content Creator**
+**AI & Software Engineer | Filmmaker | Artist**
 
 I'm a software engineer from India passionate about building **AI-driven applications**, solving **DSA problems consistently**, and creating **cinematic YouTube content**. I love combining tech + storytelling — whether it's building apps, crafting visual stories, or helping brands through content.
 
