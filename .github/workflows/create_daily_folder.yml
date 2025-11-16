@@ -1,7 +1,11 @@
 name: Create Daily DSA Folder
 
 on:
+  schedule:
+    - cron: "30 18 * * *"
+   # runs every day at midnight UTC
   workflow_dispatch:
+
 
 jobs:
   create-dsa-folder:
