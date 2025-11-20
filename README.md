@@ -72,7 +72,7 @@ I'm a software engineer from India passionate about building **AI-driven applica
 📍 Based in India — open for collaborations
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWh5Nmk3aXA3NWkwamNyYmF0bzJ1MHA4bXAydnh2d2t0aWRtenVobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fQSl1aHlwoVfMLG76Q/giphy.gif)" width="400" />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWh5Nmk3aXA3NWkwamNyYmF0bzJ1MHA4bXAydnh2d2t0aWRtenVobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fQSl1aHlwoVfMLG76Q/giphy.gif" width="400" />
 </p>
 
 ---
