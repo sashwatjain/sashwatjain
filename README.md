@@ -67,12 +67,12 @@ I'm a software engineer from India passionate about building **AI-driven applica
 
 > I love capturing stories, aesthetics, and emotions.
 
-📸 **Experience**: Travel films, pre-weddings, aesthetic reels, brand videos
+📸 **Experience**: Travel films, documentry, aesthetic reels, brand videos
 🎞️ **Style**: Cinematic, minimal, color-graded
 📍 Based in India — open for collaborations
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300" />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWh5Nmk3aXA3NWkwamNyYmF0bzJ1MHA4bXAydnh2d2t0aWRtenVobSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fQSl1aHlwoVfMLG76Q/giphy.gif" width="400" />
 </p>
 
 ---
