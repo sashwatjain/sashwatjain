@@ -2,54 +2,61 @@ name: Create Daily DSA Folder
 
 on:
   schedule:
-    - cron: "30 18 * * *"
-   # runs every day at midnight UTC
+    - cron: "30 18 * * *"   # Runs daily at 18:30 UTC (12 AM IST)
   workflow_dispatch:
-
 
 jobs:
   create-dsa-folder:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Important: fetch complete history
 
-      - name: Create next day folder
+      - name: Compute next DSA folder
+        id: compute
         run: |
           set -e
+
           DSA_DIR="dsa"
           TEMPLATE_DIR="templates"
 
           mkdir -p "$DSA_DIR"
 
-          # Detect last day
-          max=0
-          for d in "$DSA_DIR"/day_*; do
-            if [ -d "$d" ]; then
-              num=${d##*_}
-              if [[ "$num" =~ ^[0-9]+$ && "$num" -gt "$max" ]]; then
-                max=$num
-              fi
-            fi
-          done
+          # Detect last existing day folder (day_01, day_02, etc.)
+          last_day=$(ls "$DSA_DIR" 2>/dev/null | grep '^day_' | sed 's/day_//' | sort -n | tail -1)
 
-          next=$((max + 1))
-          printf -v next_padded "%02d" "$next"
-          new_folder="$DSA_DIR/day_$next_padded"
+          if [ -z "$last_day" ]; then
+            next_day=1
+          else
+            next_day=$((last_day + 1))
+          fi
+
+          printf -v day_padded "%02d" "$next_day"
+          new_folder="$DSA_DIR/day_$day_padded"
 
           mkdir -p "$new_folder"
 
-          # Copy templates
+          # Copy template files safely
           cp "$TEMPLATE_DIR/solution.py" "$new_folder/solution.py"
           cp "$TEMPLATE_DIR/problem.md" "$new_folder/problem.md"
 
-          echo "Created folder: $new_folder"
+          echo "Created: $new_folder"
 
-      - name: Commit changes
+          # Export output for next step
+          echo "new_folder=$new_folder" >> $GITHUB_OUTPUT
+
+      - name: Commit & push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add dsa/
-          git commit -m "Create $new_folder" || echo "No changes"
-          git push || echo "Push failed"
+
+          # Use folder name from previous step
+          NEW_FOLDER="${{ steps.compute.outputs.new_folder }}"
+
+          git commit -m "Added $NEW_FOLDER" || { echo 'No changes to commit.'; exit 0; }
+          git push
