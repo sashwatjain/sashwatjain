@@ -56,9 +56,9 @@ I'm a software engineer from India passionate about building **AI-driven applica
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sashwatjain&theme=tokyonight" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=sashwatjain&show_icons=true&theme=tokyonight" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=sashwatjain&show_icons=true&theme=tokyonight" />
   <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sashwatjain&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sashwatjain&layout=compact&theme=tokyonight" /> -->
 </p>
 
 ---
