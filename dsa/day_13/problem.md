@@ -4,7 +4,7 @@ https://docs.google.com/spreadsheets/d/1V5dedwFYWzyuaZTgGfZbLmacq1ma0yjUIm-TvKEG
 
 https://www.geeksforgeeks.org/problems/subset-sum-problem2014/1
 
-
+https://www.geeksforgeeks.org/dsa/the-knights-tour-problem/
 
 ---
 
