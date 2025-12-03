@@ -167,10 +167,7 @@ a = "s"
 b = "p"
 sum = "f"
 ans = solvePuzzle(a, b, sum)
-print(" ".join(ans))class Solution:
-    def solve(self, *args, **kwargs):
-        pass
-
+print(" ".join(ans))
 # Approach:
 # Time Complexity:
 # Space Complexity:
